@@ -6,6 +6,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+image: import.meta.env.BASE_URL + "assets/Master.jpg"
+
 import { 
   Bot, 
   Brain, 
@@ -474,7 +476,7 @@ const toggleDropdown = (name) => {
                 title: "Master 2.0",
                 slug: "master-2-0",
                 description: "Master 2.0 is an advanced humanoid robot designed for education, offering hands-on learning in robotics, AI, and STEM.",
-                image: "/assets/Master.jpg",
+                image: `Master.jpg`,
                 category: "Project",
                 // impact: "300% increase in STEM enrollment",
                 link: "/services/master"
@@ -482,7 +484,7 @@ const toggleDropdown = (name) => {
               {
                 title: "Bionic Hand",
                 description: "An intelligent robotic hand designed to see, detect, and act, controlled entirely through AI and camera vision.",
-                image: "/assets/Bionic.jpg",
+                image: "Bionic.jpg",
                 category: "Project",
                 // impact: "500+ students trained",
                 link: "/services/bionic_hand"
@@ -526,7 +528,7 @@ const toggleDropdown = (name) => {
               <Card key={index} className="border-0 shadow-lg hover:shadow-blue-500/40  transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in" style={{animationDelay: `${index * 200}ms`}}>
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src={`/Portfolio/${project.image}`}
+                    src={`/assets/${project.image}`}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
