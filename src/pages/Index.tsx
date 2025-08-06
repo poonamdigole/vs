@@ -459,98 +459,43 @@ const toggleDropdown = (name) => {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 px-4 bg-gradient-to-br from-gray-300 to-blue-400">
-        <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in">
-              Our Portfolio
-            </h2>
-            <p className="text-xl text-gray-600 font-bold max-w-3xl mx-auto animate-fade-in delay-200">
-              Explore our successful implementations and innovative projects across educational institutions
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Master 2.0",
-                slug: "master-2-0",
-                description: "Master 2.0 is an advanced humanoid robot designed for education, offering hands-on learning in robotics, AI, and STEM.",
-                image: `Master.jpg`,
-                category: "Project",
-                // impact: "300% increase in STEM enrollment",
-                link: "/services/master"
-              },
-              {
-                title: "Bionic Hand",
-                description: "An intelligent robotic hand designed to see, detect, and act, controlled entirely through AI and camera vision.",
-                image: "Bionic.jpg",
-                category: "Project",
-                // impact: "500+ students trained",
-                link: "/services/bionic_hand"
-              },
-              
-              {
-                title: "Workshops & Seminars",
-                description: "Unlock real-world skills through hands-on workshops in AI, Robotics, IoT, and Prototyping. From one-day bootcamps to full-week build marathons, we turn learners into creators.",
-                image: "../assets//Workshop2.jpg",
-                category: "Workshop",
-                // impact: "City-wide implementation",
-                link: "/services/dof"
-              },
-              {
-                title: "Competition",
-                description: "Fueling innovation through national-level hackathons, tech challenges, and real-world problem-solving. From classroom concepts to podium finishes, we help students compete, win, and lead.",
-                image: "../assets/Competition3.png",
-                category: "Competition",
-                // impact: "200+ participating teams",
-                link: "/services/hourglass"
-              },
-              {
-                title: "Industrial Visit",
-                description: "Bridging the gap between academics and industry through real-time tech exposure and guided visits. From lab tours to live demos, we connect students directly with innovation in action.",
-                image: "../assets/Visit.jpg",
-                category: "Industrial Visit",
-                // impact: "50+ AI specialists trained",
-                link: "/services/otto"
-              },
+{/* Portfolio Section */}
+        <section id="portfolio" className="py-20 px-4 bg-gradient-to-br from-gray-300 to-blue-400">
+          <div className="container mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in">
+                Our Portfolio
+              </h2>
+              <p className="text-xl text-gray-600 font-bold max-w-3xl mx-auto animate-fade-in delay-200">
+                Explore our successful implementations and innovative projects across educational institutions
+              </p>
+            </div>
 
-              {        
-                title: "Awards",
-                description: "Honored by leading tech organizations and industry experts for driving innovation in education. Recognized for excellence in tech education and hands-on learning through impactful initiatives.",
-                image: "../assets/Award.jpg",
-                category: "Award",
-                // impact: "40% efficiency improvement",
-                link: "/services/mhr"
-              }
-              
-            ].map((project, index) => (
-              <Card key={index} className="border-0 shadow-lg hover:shadow-blue-500/40  transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in" style={{animationDelay: `${index * 200}ms`}}>
+            <div className="grid md:grid-cols-3 gap-8">
+
+              {/* Card 1 */}
+              <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
                 <div className="relative h-48 overflow-hidden">
-                  <img 
-                    src={`/assets/${project.image}`}
-                    alt={project.title}
+                  <img
+                    src="/assets/Master.jpg"
+                    alt="Master 2.0"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute top-4 left-4">
                     <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                      {project.category}
+                      Project
                     </span>
                   </div>
                 </div>
                 <CardHeader className="pb-4">
                   <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-2">
-                    {project.title}
+                    Master 2.0
                   </CardTitle>
                   <CardDescription className="text-gray-600 leading-relaxed mb-4">
-                    {project.description}
+                    Master 2.0 is an advanced humanoid robot designed for education, offering hands-on learning in robotics, AI, and STEM.
                   </CardDescription>
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                      {/* <TrendingUp className="h-4 w-4 text-green-500" /> */}
-                      {/* <span className="text-sm text-green-600 font-medium">{project.impact}</span> */}
-                    </div>
-                    <Link to={project.link}>
+                    <Link to="/services/master">
                       <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700">
                         <ExternalLink className="h-4 w-4 mr-1" />
                         View Details
@@ -559,10 +504,78 @@ const toggleDropdown = (name) => {
                   </div>
                 </CardHeader>
               </Card>
-            ))}
+
+              {/* Card 2 */}
+              <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="/assets/Bionic.jpg"
+                    alt="Bionic Hand"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Project
+                    </span>
+                  </div>
+                </div>
+                <CardHeader className="pb-4">
+                  <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-2">
+                    Bionic Hand
+                  </CardTitle>
+                  <CardDescription className="text-gray-600 leading-relaxed mb-4">
+                    An intelligent robotic hand designed to see, detect, and act, controlled entirely through AI and camera vision.
+                  </CardDescription>
+                  <div className="flex items-center justify-between">
+                    <Link to="/services/bionic_hand">
+                      <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700">
+                        <ExternalLink className="h-4 w-4 mr-1" />
+                        View Details
+                      </Button>
+                    </Link>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              {/* Card 3 */}
+              <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="/assets/Workshop2.jpg"
+                    alt="Workshops & Seminars"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Workshop
+                    </span>
+                  </div>
+                </div>
+                <CardHeader className="pb-4">
+                  <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-2">
+                    Workshops & Seminars
+                  </CardTitle>
+                  <CardDescription className="text-gray-600 leading-relaxed mb-4">
+                    Unlock real-world skills through hands-on workshops in AI, Robotics, IoT, and Prototyping.
+                  </CardDescription>
+                  <div className="flex items-center justify-between">
+                    <Link to="/services/dof">
+                      <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700">
+                        <ExternalLink className="h-4 w-4 mr-1" />
+                        View Details
+                      </Button>
+                    </Link>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              {/* Add 3 more cards below the same way for: Competition, Industrial Visit, Awards */}
+              {/* Use: /assets/Competition3.png, /assets/Visit.jpg, /assets/Award.jpg and update text */}
+
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+
 
       {/* Stats Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
