@@ -457,7 +457,7 @@ const toggleDropdown = (name) => {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 px-4 bg-gradient-to-br from-gray-300 to-blue-400">
+      <section className="py-20 px-4 bg-gradient-to-br from-gray-300 to-blue-400">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in">
@@ -526,7 +526,7 @@ const toggleDropdown = (name) => {
               <Card key={index} className="border-0 shadow-lg hover:shadow-blue-500/40  transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in" style={{animationDelay: `${index * 200}ms`}}>
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src={`/${project.image}`}
+                    src={`/Portfolio/${project.image}`}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
