@@ -319,55 +319,64 @@ const toggleDropdown = (name) => {
       
 
       {/* About Section */}
-      <section id="about" className="bg-blue-100 text-blue-500 via-white to-blue-200">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="animate-fade-in">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Empowering Education Through Real-World Innovation
-              </h2>
-              <br/>
-              <br/>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-               VS Tech Horizon is a high-performance tech company delivering practical solutions in robotics, AI, IoT, software development, automation, 
-               and hands-on STEM labs. With every lab, product, and platform, we focus on quality, scalability, and relevance. Trusted by institutions across Globe, 
-               we deliver solutions that work, right now, where it matters.
-              </p>
-              <br/>
-              <br/>
-              <div className="space-y-4 mb-8">
-                {[
-                  "We set up fully equipped Robotics, AI, IoT, Prototyping and STEM labs customized for schools, colleges, and universities worldwide.",
-                  "We conduct structured workshops, seminars, and industrial visits focused on hands-on, project-based learning, backed by expert mentorship and ongoing support.",
-                  "We actively work on R&D and innovation, delivering industry-relevant projects and real-world tech solutions across education and engineering domains."
-                ].map((point, index) => (
-                  <div key={index} className="flex items-center space-x-3 animate-fade-in" style={{animationDelay: `${index * 150}ms`}}>
-                    <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0" />
-                    <span className="text-gray-700">{point}</span>
-                  </div>
-                ))}
-              </div>
-              {<Button
-              onClick={() => navigate("/about-us")} 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full" >
-                Learn More About Us
-              </Button>}
-            </div>
-              <div className="relative animate-fade-in delay-300">
-                {/* <div className="rounded-3xl p-8 shadow-2xl"> */}
-                  <div className="bg-white rounded-2xl overflow-hidden h-[800px]">
-                    <img
-                      src="./assets/aster.jpeg"
-                      alt="AI Robot Illustration"
-                      className="w-full h-auto object-cover"
-                    />
-                  {/* </div> */}
-                </div>
-            </div>
+{/* About Section */}
+<section id="about" className="bg-blue-100 text-blue-500 via-white to-blue-200 py-16">
+  <div className="container mx-auto px-4">
+    <div className="grid md:grid-cols-2 gap-16 items-center">
+      
+      {/* Text Content */}
+      <div className="animate-fade-in">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          Empowering Education Through Real-World Innovation
+        </h2>
 
-          </div>
+        <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+          VS Tech Horizon is a high-performance tech company delivering practical solutions in robotics, AI, IoT, software development, automation, 
+          and hands-on STEM labs. With every lab, product, and platform, we focus on quality, scalability, and relevance. Trusted by institutions across the globe, 
+          we deliver solutions that work, right now, where it matters.
+        </p>
+
+        <div className="space-y-4 mb-8">
+          {[
+            "We set up fully equipped Robotics, AI, IoT, Prototyping and STEM labs customized for schools, colleges, and universities worldwide.",
+            "We conduct structured workshops, seminars, and industrial visits focused on hands-on, project-based learning, backed by expert mentorship and ongoing support.",
+            "We actively work on R&D and innovation, delivering industry-relevant projects and real-world tech solutions across education and engineering domains."
+          ].map((point, index) => (
+            <div
+              key={index}
+              className="flex items-center space-x-3 animate-fade-in"
+              style={{ animationDelay: `${index * 150}ms` }}
+            >
+              <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0" />
+              <span className="text-gray-700">{point}</span>
+            </div>
+          ))}
         </div>
-      </section>
+
+        <Button
+          onClick={() => navigate("/about-us")}
+          className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full"
+        >
+          Learn More About Us
+        </Button>
+      </div>
+
+      {/* Image */}
+      <div className="relative animate-fade-in delay-300 flex justify-center">
+        <div className="rounded-2xl overflow-hidden">
+          <img
+            src="./assets/aster.jpeg"
+            alt="AI Robot Illustration"
+            className="w-full max-w-[400px] h-auto object-contain"
+          />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
       {/* Services Section */}
       <section id="services" className="py-20 px-4 bg-white">
