@@ -474,7 +474,7 @@ const toggleDropdown = (name) => {
                 title: "Master 2.0",
                 slug: "master-2-0",
                 description: "Master 2.0 is an advanced humanoid robot designed for education, offering hands-on learning in robotics, AI, and STEM.",
-                image: "./assets/Master.jpg",
+                image: "../assets/Master.jpg",
                 category: "Project",
                 // impact: "300% increase in STEM enrollment",
                 link: "/services/master"
@@ -482,7 +482,7 @@ const toggleDropdown = (name) => {
               {
                 title: "Bionic Hand",
                 description: "An intelligent robotic hand designed to see, detect, and act, controlled entirely through AI and camera vision.",
-                image: "./assets/Bionic.jpg",
+                image: "../assets/Bionic.jpg",
                 category: "Project",
                 // impact: "500+ students trained",
                 link: "/services/bionic_hand"
@@ -491,7 +491,7 @@ const toggleDropdown = (name) => {
               {
                 title: "Workshops & Seminars",
                 description: "Unlock real-world skills through hands-on workshops in AI, Robotics, IoT, and Prototyping. From one-day bootcamps to full-week build marathons, we turn learners into creators.",
-                image: "./assets/Workshop.jpg",
+                image: "../assets//Workshop2.jpg",
                 category: "Workshop",
                 // impact: "City-wide implementation",
                 link: "/services/dof"
@@ -499,7 +499,7 @@ const toggleDropdown = (name) => {
               {
                 title: "Competition",
                 description: "Fueling innovation through national-level hackathons, tech challenges, and real-world problem-solving. From classroom concepts to podium finishes, we help students compete, win, and lead.",
-                image: "./assets/Competition.png",
+                image: "../assets/Competition3.png",
                 category: "Competition",
                 // impact: "200+ participating teams",
                 link: "/services/hourglass"
@@ -507,7 +507,7 @@ const toggleDropdown = (name) => {
               {
                 title: "Industrial Visit",
                 description: "Bridging the gap between academics and industry through real-time tech exposure and guided visits. From lab tours to live demos, we connect students directly with innovation in action.",
-                image: "./assets/Visit.jpg",
+                image: "../assets/Visit.jpg",
                 category: "Industrial Visit",
                 // impact: "50+ AI specialists trained",
                 link: "/services/otto"
@@ -516,7 +516,7 @@ const toggleDropdown = (name) => {
               {        
                 title: "Awards",
                 description: "Honored by leading tech organizations and industry experts for driving innovation in education. Recognized for excellence in tech education and hands-on learning through impactful initiatives.",
-                image: "./assets/Award.jpg",
+                image: "../assets/Award.jpg",
                 category: "Award",
                 // impact: "40% efficiency improvement",
                 link: "/services/mhr"
