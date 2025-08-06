@@ -526,7 +526,7 @@ const toggleDropdown = (name) => {
               <Card key={index} className="border-0 shadow-lg hover:shadow-blue-500/40  transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in" style={{animationDelay: `${index * 200}ms`}}>
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src={`/Portfolio/${project.image}`}
+                    src={`/${project.image}`}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
