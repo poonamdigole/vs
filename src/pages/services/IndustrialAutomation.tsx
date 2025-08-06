@@ -93,7 +93,7 @@ const IndustrialAutomation = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <img 
-                src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
+                src="../lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
                 alt="VS Tech Horizon Logo" 
                 className="h-10 w-auto cursor-pointer"
                 onClick={() => navigateToHomeSection('home')}
@@ -347,12 +347,12 @@ const IndustrialAutomation = () => {
                   {/* Repeat the same image set twice for smooth loop */}
                   {[...Array(2)].map((_, i) => (
                     <React.Fragment key={i}>
-                      <img src="./Competition/compet1.jpg" alt="Competition 1" className="h-48 rounded-md" />
-                      <img src="./Competition/compet2.jpg" alt="Competition 2" className="h-48 rounded-md" />
-                      <img src="./Competition/compet3.jpg" alt="Competition 3" className="h-48 rounded-md" />
-                      <img src="./Competition/compet4.png" alt="Competition 4" className="h-48 rounded-md" />
-                      <img src="./Competition/compet5.jpg" alt="Competition 5" className="h-48 rounded-md" />
-                      <img src="./Competition/compet6.png" alt="Competition 6" className="h-48 rounded-md" />
+                      <img src="../Competition/compet1.jpg" alt="Competition 1" className="h-48 rounded-md" />
+                      <img src="../Competition/compet2.jpg" alt="Competition 2" className="h-48 rounded-md" />
+                      <img src="../Competition/compet3.jpg" alt="Competition 3" className="h-48 rounded-md" />
+                      <img src="../Competition/compet4.png" alt="Competition 4" className="h-48 rounded-md" />
+                      <img src="../Competition/compet5.jpg" alt="Competition 5" className="h-48 rounded-md" />
+                      <img src="../Competition/compet6.png" alt="Competition 6" className="h-48 rounded-md" />
                     </React.Fragment>
                   ))}
                 </div>
@@ -484,7 +484,7 @@ const IndustrialAutomation = () => {
             <div className="space-y-6 animate-fade-in">
               <div className="flex items-center space-x-3">
                 <img
-                  src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png"
+                  src="../lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png"
                   alt="VS Tech Horizon Logo"
                   className="h-10 w-auto"
                 />

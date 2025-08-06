@@ -23,7 +23,7 @@ const teamMembers = [
     title: "Chief Executive Officer (CEO)",
     description:
       "At VS Tech Horizon, we are not just preparing students for exams, we are preparing them for life. Our goal is to build fearless innovators, bold thinkers, and responsible leaders who can thrive in a tech-driven world. We believe that when students are given the right environment to explore and build, they don’t just learn, they transform. Together, we are creating a generation that’s ready not just to face the future, but to lead it.",
-    image: "/heads/ceo.png",
+    image: "./heads/ceo.png",
     reverse: true,
     hoverBg: "#446c9e",
   },
@@ -32,7 +32,7 @@ const teamMembers = [
     title: "Founder",
     description:
       "I founded VS Tech Horizon with a clear purpose, to redefine the way students experience education. In a world driven by technology, it's no longer enough to just learn, we must create, innovate, and lead. Our mission is to give every student the opportunity to turn their curiosity into real skills, their ideas into impact, and their dreams into reality. This is more than education, it’s a movement to build a future powered by young minds who are ready to shape the world.",
-    image: "/heads/cofounder.png",
+    image: "./heads/founder.png",
     reverse: false,
     hoverBg: "#446c9e",
   },
