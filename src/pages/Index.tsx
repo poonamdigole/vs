@@ -477,7 +477,7 @@ const toggleDropdown = (name) => {
               <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/assets/Master.jpg"
+                    src="./assets/Master.jpg"
                     alt="Master 2.0"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
@@ -569,8 +569,101 @@ const toggleDropdown = (name) => {
                 </CardHeader>
               </Card>
 
-              {/* Add 3 more cards below the same way for: Competition, Industrial Visit, Awards */}
-              {/* Use: /assets/Competition3.png, /assets/Visit.jpg, /assets/Award.jpg and update text */}
+              {/* Card 4 */}
+              <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="./assets/Competition3.png"
+                    alt="Competition"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Competition
+                    </span>
+                  </div>
+                </div>
+                <CardHeader className="pb-4">
+                  <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-2">
+                    RoboRush STEM F
+                  </CardTitle>
+                  <CardDescription className="text-gray-600 leading-relaxed mb-4">
+                    Fueling innovation through national-level hackathons, tech challenges, and real-world problem-solving. From classroom concepts to podium finishes, we help students compete, win, and lead.
+                  </CardDescription>
+                  <div className="flex items-center justify-between">
+                    <Link to="/services/Hourglass">
+                      <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700">
+                        <ExternalLink className="h-4 w-4 mr-1" />
+                        View Details
+                      </Button>
+                    </Link>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              {/* Card 5 */}
+              <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="./assets/Visit.jpg"
+                    alt="Industrial Visit"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Industrial Visit
+                    </span>
+                  </div>
+                </div>
+                <CardHeader className="pb-4">
+                  <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-2">
+                    Industrial Visit
+                  </CardTitle>
+                  <CardDescription className="text-gray-600 leading-relaxed mb-4">
+                    Bridging the gap between academics and industry through real-time tech exposure and guided visits. From lab tours to live demos, we connect students directly with innovation in action
+                  </CardDescription>
+                  <div className="flex items-center justify-between">
+                    <Link to="/services/Otto">
+                      <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700">
+                        <ExternalLink className="h-4 w-4 mr-1" />
+                        View Details
+                      </Button>
+                    </Link>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              {/* Card 6 */}
+              <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="./assets/Award.jpg"
+                    alt="Awards"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Awards
+                    </span>
+                  </div>
+                </div>
+                <CardHeader className="pb-4">
+                  <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-2">
+                    Awards
+                  </CardTitle>
+                  <CardDescription className="text-gray-600 leading-relaxed mb-4">
+                    Honored by leading tech organizations and industry experts for driving innovation in education. Recognized for excellence in tech education and hands-on learning through impactful initiatives.
+                  </CardDescription>
+                  <div className="flex items-center justify-between">
+                    <Link to="/services/mhr">
+                      <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700">
+                        <ExternalLink className="h-4 w-4 mr-1" />
+                        View Details
+                      </Button>
+                    </Link>
+                  </div>
+                </CardHeader>
+              </Card>
 
             </div>
           </div>
