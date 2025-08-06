@@ -9,6 +9,7 @@ import RoboticsLab from "./pages/services/RoboticsLab";
 import AITraining from "./pages/services/AITraining";
 import Master from "./pages/services/Master";
 import Otto from "./pages/services/Otto";
+import Privacy from "./pages/services/Privacy";
 import Mhr from "./pages/services/Mhr";
 import Dof from "./pages/services/Dof";
 import Hourglass from "./pages/services/Hourglass";
@@ -29,6 +30,7 @@ const App = () => (
         <Route path="/services/ai-training" element={<AITraining />} />
         <Route path="/Services/master" element={<Master />} />
         <Route path="/Services/otto" element={<Otto />} />
+        <Route path="/Services/privacy" element={<Privacy/>} />
         <Route path="/Services/mhr" element={<Mhr />} />
         <Route path="/Services/bionic_hand" element={<Bionic_hand />} />
         <Route path="/Services/dof" element={<Dof />} />

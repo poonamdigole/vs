@@ -1078,7 +1078,10 @@ const toggleDropdown = (name) => {
               <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
                 <p className="text-gray-400">&copy; 2024 VS Tech Horizon Pvt. Ltd. All rights reserved.</p>
                 <div className="flex space-x-6">
-                  <button className="text-gray-400 hover:text-white transition-colors duration-300 text-sm">
+                  <button
+                    onClick={() => window.location.href = "/services/privacy"}
+                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm"
+                  >
                     Privacy Policy
                   </button>
                   <button className="text-gray-400 hover:text-white transition-colors duration-300 text-sm">
