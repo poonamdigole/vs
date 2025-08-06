@@ -85,7 +85,7 @@ const AITraining = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <img 
-                src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
+                src="../lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
                 alt="VS Tech Horizon Logo" 
                 className="h-10 w-auto cursor-pointer"
                 onClick={() => navigateToHomeSection('home')}
@@ -267,12 +267,12 @@ const AITraining = () => {
                       {/* Repeat the same image set twice for smooth loop */}
                       {[...Array(2)].map((_, i) => (
                         <React.Fragment key={i}>
-                          <img src="./Workshop/workshop1.jpg" alt="workshop 1" className="h-48 rounded-md" />
-                          <img src="./Workshop/workshop2.jpg" alt="workshop 2" className="h-48 rounded-md" />
-                          <img src="./Workshop/workshop3.jpg" alt="workshop 3" className="h-48 rounded-md" />
-                          <img src="./Workshop/workshop4.jpg" alt="workshop 4" className="h-48 rounded-md" />
-                          <img src="./Workshop/workshop5.jpg" alt="workshop 5" className="h-48 rounded-md" />
-                          <img src="./Workshop/workshop6.jpg" alt="workshop 6" className="h-48 rounded-md" />
+                          <img src="../Workshop/workshop1.jpg" alt="workshop 1" className="h-48 rounded-md" />
+                          <img src="../Workshop/workshop2.jpg" alt="workshop 2" className="h-48 rounded-md" />
+                          <img src="../Workshop/workshop3.jpg" alt="workshop 3" className="h-48 rounded-md" />
+                          <img src="../Workshop/workshop4.jpg" alt="workshop 4" className="h-48 rounded-md" />
+                          <img src="../Workshop/workshop5.jpg" alt="workshop 5" className="h-48 rounded-md" />
+                          <img src="../Workshop/workshop6.jpg" alt="workshop 6" className="h-48 rounded-md" />
                         </React.Fragment>
                       ))}
                     </div>
@@ -472,12 +472,12 @@ const AITraining = () => {
       {/* ✅ Footer Section Starts Here - Placed Inside Return */}
       <footer className="bg-gray-900 text-white py-16 px-4 relative overflow-hidden">
         <div className="container mx-auto relative z-10">
-          <div className="grid md:grid-cols-4 gap-12 mb-12">
+          <div className="grid md:grid-cols-4 gap-12 mb-1 2">
             {/* Company Info */}
             <div className="space-y-6 animate-fade-in">
               <div className="flex items-center space-x-3">
                 <img
-                  src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png"
+                  src="../lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png"
                   alt="VS Tech Horizon Logo"
                   className="h-10 w-auto"
                 />
