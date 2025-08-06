@@ -474,10 +474,10 @@ const toggleDropdown = (name) => {
                 title: "Master 2.0",
                 slug: "master-2-0",
                 description: "Master 2.0 is an advanced humanoid robot designed for education, offering hands-on learning in robotics, AI, and STEM.",
-                image: "Master.jpg",
+                image: "./assets/Master.jpg",
                 category: "Project",
                 // impact: "300% increase in STEM enrollment",
-                link: "./services/master"
+                link: "/services/master"
               },
               {
                 title: "Bionic Hand",
@@ -485,7 +485,7 @@ const toggleDropdown = (name) => {
                 image: "Bionic.jpg",
                 category: "Project",
                 // impact: "500+ students trained",
-                link: "./services/bionic_hand"
+                link: "/services/bionic_hand"
               },
               
               {
@@ -494,7 +494,7 @@ const toggleDropdown = (name) => {
                 image: "Workshop.jpg",
                 category: "Workshop",
                 // impact: "City-wide implementation",
-                link: "./services/dof"
+                link: "/services/dof"
               },
               {
                 title: "Competition",
@@ -502,7 +502,7 @@ const toggleDropdown = (name) => {
                 image: "Competition.png",
                 category: "Competition",
                 // impact: "200+ participating teams",
-                link: "./services/hourglass"
+                link: "/services/hourglass"
               },
               {
                 title: "Industrial Visit",
@@ -510,7 +510,7 @@ const toggleDropdown = (name) => {
                 image: "Visit.jpg",
                 category: "Industrial Visit",
                 // impact: "50+ AI specialists trained",
-                link: "./services/otto"
+                link: "/services/otto"
               },
 
               {        
@@ -519,7 +519,7 @@ const toggleDropdown = (name) => {
                 image: "Award.jpg",
                 category: "Award",
                 // impact: "40% efficiency improvement",
-                link: "./services/mhr"
+                link: "/services/mhr"
               }
               
             ].map((project, index) => (
