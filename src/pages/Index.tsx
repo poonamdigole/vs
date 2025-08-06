@@ -189,26 +189,26 @@ const toggleDropdown = (name) => {
 
       {/* Gallery Section */}
               <section className="">
-                <div className="">
-                  
-                  {/* Continuous Scrolling Gallery */}
-                    <div className="relative overflow-hidden">
-                      <div className="flex w-max animate-scroll gap-0.5 will-change-transform">
-                        {/* Repeat the same image set twice for smooth loop */}
-                        {[...Array(2)].map((_, i) => (
-                          <React.Fragment key={i}>
-                            <img src="/assets/Workshop2.jpg" alt="Competition 1" className="h-48 " />
-                            <img src="/assets/Award2.jpg" alt="Competition 2" className="h-48 " />
-                            <img src="/assets/Workshop4.jpg" alt="Competition 3" className="h-48 " />
-                            <img src="/assets/Visit22.jpg" alt="Competition 4" className="h-48 " />
-                            <img src="/assets/workshop5.jpg" alt="Competition 5" className="h-48 " />
-                            <img src="/assets/lab4.png" alt="Competition 6" className="h-48 " />
-                          </React.Fragment>
-                        ))}
+              <div className="">
+                {/* Continuous Scrolling Gallery */}
+                <div className="relative overflow-hidden">
+                  <div className="flex w-max animate-scroll gap-0.5 will-change-transform">
+                    {/* Repeat the same image set twice for smooth loop */}
+                    {[...Array(2)].map((_, i) => (
+                      <div key={i} className="flex gap-0.5">
+                        <img src="/assets/Workshop2.jpg" alt="Competition 1" className="h-48" />
+                        <img src="/assets/Award2.jpg" alt="Competition 2" className="h-48" />
+                        <img src="/assets/Workshop4.jpg" alt="Competition 3" className="h-48" />
+                        <img src="/assets/Visit22.jpg" alt="Competition 4" className="h-48" />
+                        <img src="/assets/workshop5.jpg" alt="Competition 5" className="h-48" />
+                        <img src="/assets/lab4.png" alt="Competition 6" className="h-48" />
                       </div>
-                      </div>
+                    ))}
+                  </div>
                 </div>
-              </section>
+              </div>
+            </section>
+
               {/* Gallery Section */}
               <section className="mt-0.5">
                 <div className="">
