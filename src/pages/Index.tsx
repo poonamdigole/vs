@@ -74,7 +74,7 @@ const toggleDropdown = (name) => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3 group">
               <img 
-                src="/lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
+                src="./public/lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
                 alt="VS Tech Horizon Logo" 
                 className="h-10 w-auto group-hover:scale-110 transition-transform duration-300 cursor-pointer"
                 onClick={() => scrollToSection('home')}
@@ -115,7 +115,7 @@ const toggleDropdown = (name) => {
             <div className="animate-fade-in">
               <div className="flex justify-center items-center mb-8">
                 <img 
-                  src="/lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
+                  src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
                   alt="VS Tech Horizon Logo" 
                   className="h-20 w-auto mr-4"
                 />
