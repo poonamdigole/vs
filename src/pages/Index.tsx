@@ -319,7 +319,7 @@ const toggleDropdown = (name) => {
       
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 bg-gradient-to-br from-gray-100 to-blue-100">
+      <section id="about" className="bg-blue-100 text-blue-500 via-white to-blue-200">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in">
@@ -355,7 +355,7 @@ const toggleDropdown = (name) => {
             </div>
               <div className="relative animate-fade-in delay-300">
                 {/* <div className="rounded-3xl p-8 shadow-2xl"> */}
-                  <div className="bg-white rounded-2xl overflow-hidden">
+                  <div className="bg-white rounded-2xl overflow-hidden h-[800px]">
                     <img
                       src="./assets/aster.jpeg"
                       alt="AI Robot Illustration"
@@ -460,13 +460,13 @@ const toggleDropdown = (name) => {
 
       {/* Portfolio Section */}
 {/* Portfolio Section */}
-        <section id="portfolio" className="py-20 px-4 bg-gradient-to-br from-gray-300 to-blue-400">
+        <section id="portfolio" className="py-20 px-4 bg-gradient-to-br from-blue-300 to-blue-100">
           <div className="container mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 animate-fade-in">
                 Our Portfolio
               </h2>
-              <p className="text-xl text-gray-600 font-bold max-w-3xl mx-auto animate-fade-in delay-200">
+              <p className="text-xl font-semibold text-gray-800 underline mb-2 ">
                 Explore our successful implementations and innovative projects across educational institutions
               </p>
             </div>
@@ -585,7 +585,7 @@ const toggleDropdown = (name) => {
                 </div>
                 <CardHeader className="pb-4">
                   <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-2">
-                    RoboRush STEM F
+                    RoboRush STEM Fest
                   </CardTitle>
                   <CardDescription className="text-gray-600 leading-relaxed mb-4">
                     Fueling innovation through national-level hackathons, tech challenges, and real-world problem-solving. From classroom concepts to podium finishes, we help students compete, win, and lead.
