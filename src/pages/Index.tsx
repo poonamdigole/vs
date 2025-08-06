@@ -74,7 +74,7 @@ const toggleDropdown = (name) => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3 group">
               <img 
-                src="./public/lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
+                src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
                 alt="VS Tech Horizon Logo" 
                 className="h-10 w-auto group-hover:scale-110 transition-transform duration-300 cursor-pointer"
                 onClick={() => scrollToSection('home')}
@@ -196,12 +196,12 @@ const toggleDropdown = (name) => {
                     {/* Repeat the same image set twice for smooth loop */}
                     {[...Array(2)].map((_, i) => (
                       <div key={i} className="flex gap-0.5">
-                        <img src="/assets/Workshop2.jpg" alt="Competition 1" className="h-48" />
-                        <img src="/assets/Award2.jpg" alt="Competition 2" className="h-48" />
-                        <img src="/assets/Workshop4.jpg" alt="Competition 3" className="h-48" />
-                        <img src="/assets/Visit22.jpg" alt="Competition 4" className="h-48" />
-                        <img src="/assets/workshop5.jpg" alt="Competition 5" className="h-48" />
-                        <img src="/assets/lab4.png" alt="Competition 6" className="h-48" />
+                        <img src="./assets/Workshop2.jpg" alt="Competition 1" className="h-48" />
+                        <img src="./assets/Award2.jpg" alt="Competition 2" className="h-48" />
+                        <img src="./assets/Workshop4.jpg" alt="Competition 3" className="h-48" />
+                        <img src="./assets/Visit22.jpg" alt="Competition 4" className="h-48" />
+                        <img src="./assets/workshop5.jpg" alt="Competition 5" className="h-48" />
+                        <img src="./assets/lab4.png" alt="Competition 6" className="h-48" />
                       </div>
                     ))}
                   </div>
@@ -219,12 +219,12 @@ const toggleDropdown = (name) => {
                         {/* Repeat the same image set twice for smooth loop */}
                         {[...Array(2)].map((_, i) => (
                           <React.Fragment key={i}>
-                            <img src="/Competition/compet1.jpg" alt="Competition 1" className="h-48 " />
-                            <img src="/Competition/compet2.jpg" alt="Competition 2" className="h-48 " />
-                            <img src="/Competition/compet3.jpg" alt="Competition 3" className="h-48 " />
-                            <img src="/Competition/compet4.png" alt="Competition 4" className="h-48 " />
-                            <img src="/Competition/compet5.jpg" alt="Competition 5" className="h-48 "/>
-                            <img src="/Competition/compet6.png" alt="Competition 6" className="h-48 " />
+                            <img src="./Competition/compet1.jpg" alt="Competition 1" className="h-48 " />
+                            <img src="./Competition/compet2.jpg" alt="Competition 2" className="h-48 " />
+                            <img src="./Competition/compet3.jpg" alt="Competition 3" className="h-48 " />
+                            <img src="./Competition/compet4.png" alt="Competition 4" className="h-48 " />
+                            <img src="./Competition/compet5.jpg" alt="Competition 5" className="h-48 "/>
+                            <img src="./Competition/compet6.png" alt="Competition 6" className="h-48 " />
                           </React.Fragment>
                         ))}
                       </div>
@@ -477,7 +477,7 @@ const toggleDropdown = (name) => {
                 image: "Master.jpg",
                 category: "Project",
                 // impact: "300% increase in STEM enrollment",
-                link: "/services/master"
+                link: "./services/master"
               },
               {
                 title: "Bionic Hand",
@@ -485,7 +485,7 @@ const toggleDropdown = (name) => {
                 image: "Bionic.jpg",
                 category: "Project",
                 // impact: "500+ students trained",
-                link: "/services/bionic_hand"
+                link: "./services/bionic_hand"
               },
               
               {
@@ -494,7 +494,7 @@ const toggleDropdown = (name) => {
                 image: "Workshop.jpg",
                 category: "Workshop",
                 // impact: "City-wide implementation",
-                link: "/services/dof"
+                link: "./services/dof"
               },
               {
                 title: "Competition",
@@ -502,7 +502,7 @@ const toggleDropdown = (name) => {
                 image: "Competition.png",
                 category: "Competition",
                 // impact: "200+ participating teams",
-                link: "/services/hourglass"
+                link: "./services/hourglass"
               },
               {
                 title: "Industrial Visit",
@@ -510,16 +510,16 @@ const toggleDropdown = (name) => {
                 image: "Visit.jpg",
                 category: "Industrial Visit",
                 // impact: "50+ AI specialists trained",
-                link: "/services/otto"
+                link: "./services/otto"
               },
 
-              {
+              {        
                 title: "Awards",
                 description: "Honored by leading tech organizations and industry experts for driving innovation in education. Recognized for excellence in tech education and hands-on learning through impactful initiatives.",
                 image: "Award.jpg",
                 category: "Award",
                 // impact: "40% efficiency improvement",
-                link: "/services/mhr"
+                link: "./services/mhr"
               }
               
             ].map((project, index) => (
@@ -812,7 +812,7 @@ const toggleDropdown = (name) => {
             <div className="space-y-6 animate-fade-in">
               <div className="flex items-center space-x-3">
                 <img 
-                  src="/lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
+                  src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
                   alt="VS Tech Horizon Logo" 
                   className="h-10 w-auto"
                 />

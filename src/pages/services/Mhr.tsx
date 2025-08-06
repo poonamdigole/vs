@@ -56,7 +56,7 @@ const Awards = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
+                src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png" 
                 alt="VS Tech Horizon Logo" 
                 className="h-10 w-auto cursor-pointer"
                onClick={() => navigateToHomeSection('home')}
@@ -129,7 +129,7 @@ const Awards = () => {
                   <div className="space-y-6 animate-fade-in">
                     <div className="flex items-center space-x-3">
                       <img
-                        src="/lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png"
+                        src="./lovable-uploads/fdc0c3ef-d2b3-4ae6-b208-5aa7c1730f95.png"
                         alt="VS Tech Horizon Logo"
                         className="h-10 w-auto"
                       />
