@@ -509,7 +509,7 @@ const toggleDropdown = (name) => {
               <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/assets/Bionic.jpg"
+                    src="./assets/Bionic.jpg"
                     alt="Bionic Hand"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
@@ -541,7 +541,7 @@ const toggleDropdown = (name) => {
               <Card className="border-0 shadow-lg hover:shadow-blue-500/40 transform hover:-translate-y-4 transition-all duration-500 group overflow-hidden animate-fade-in">
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/assets/Workshop2.jpg"
+                    src="./assets/Workshop2.jpg"
                     alt="Workshops & Seminars"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
