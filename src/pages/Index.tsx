@@ -474,8 +474,7 @@ const toggleDropdown = (name) => {
                 title: "Master 2.0",
                 slug: "master-2-0",
                 description: "Master 2.0 is an advanced humanoid robot designed for education, offering hands-on learning in robotics, AI, and STEM.",
-                image: process.env.PUBLIC_URL + "/assets/Master.jpg",
-
+                image: "/assets/Master.jpg",
                 category: "Project",
                 // impact: "300% increase in STEM enrollment",
                 link: "/services/master"
@@ -483,7 +482,7 @@ const toggleDropdown = (name) => {
               {
                 title: "Bionic Hand",
                 description: "An intelligent robotic hand designed to see, detect, and act, controlled entirely through AI and camera vision.",
-                image: "../assets/Bionic.jpg",
+                image: "/assets/Bionic.jpg",
                 category: "Project",
                 // impact: "500+ students trained",
                 link: "/services/bionic_hand"
