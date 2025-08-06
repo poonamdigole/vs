@@ -86,13 +86,13 @@ const handleRequestQuote = () => {
         <section className="mb-16 flex flex-col md:flex-row items-center md:items-start gap-8">
             <div className="w-full md:w-1/2">
               <img
-                src="/assets/Workshop2.jpg"
+                src="../assets/Workshop2.jpg"
                 alt="Workshop2.jpg"
                 className="w-full max-w-sm h-[400px] object-cover mx-auto rounded-xl shadow-md"
               />
               <br></br>
               <img
-                src="/assets/Workshop4.jpg"
+                src="../assets/Workshop4.jpg"
                 alt="Workshop4.jpg"
                 className="w-full max-w-sm h-[400px] object-cover mx-auto rounded-xl shadow-md"
               />

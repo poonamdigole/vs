@@ -89,7 +89,7 @@ const handleRequestQuote = () => {
         <section className="mb-16 flex flex-col md:flex-row items-center md:items-start gap-8">
             <div className="w-full md:w-1/2">
               <img
-                src="/assets/BionicHand.jpg"
+                src="../assets/BionicHand.jpg"
                 alt="BionicHand.jpg"
                 className="w-full max-w-sm h-[400px] object-cover mx-auto rounded-xl shadow-md"
               />
