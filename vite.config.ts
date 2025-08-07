@@ -11,7 +11,8 @@ export default defineConfig(({ mode }) => {
   return {
     // ✅ Used only in production (e.g., GitHub Pages)
     // base: isProduction ? `/${repoName}/` : '/',
-    base: process.env.VITE_BASE_PATH || '/vs',
+    base: './',
+
 
 
     server: {
