@@ -1,7 +1,8 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "homepage": "https://vishalsuledeveloper.github.io/vs",
+  "homepage": "https://vstechhorizon.com",
+
   "version": "1.0.0",
   "type": "module",
   "scripts": {
