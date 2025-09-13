@@ -7,14 +7,16 @@ import './index.css';
 const rootElement = document.getElementById('root');
 
 const isProduction = import.meta.env.MODE === 'production';
-const basename = isProduction ? '/vs' : '/';
+const basename = '/';
+
 
 if (rootElement) {
   createRoot(rootElement).render(
     <React.StrictMode>
-      <BrowserRouter basename={basename}>
-        <App />
-      </BrowserRouter>
+      <BrowserRouter>
+  <App />
+</BrowserRouter>
+
     </React.StrictMode>
   );
 }
