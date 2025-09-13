@@ -11,9 +11,7 @@ export default defineConfig(({ mode }) => {
   return {
     // ✅ Used only in production (e.g., GitHub Pages)
     // base: isProduction ? `/${repoName}/` : '/',
-    base: './',
-
-
+    base: '',
 
     server: {
       host: true,
